@@ -10,9 +10,9 @@ public class Inventory
     {
         itemList = new List<Item>();
 
-        AddItem(new Item { itemType = Item.ItemType.PurpleKey, amount = 1 });
-        AddItem(new Item { itemType = Item.ItemType.PurpleKey, amount = 1 });
-        AddItem(new Item { itemType = Item.ItemType.PurpleKey, amount = 1 });
+        AddItem(new Item { itemType = Item.ItemType.PurpleKey, amount = 3 });
+        //AddItem(new Item { itemType = Item.ItemType.PurpleKey, amount = 1 });
+        //AddItem(new Item { itemType = Item.ItemType.PurpleKey, amount = 1 });
         Debug.Log(itemList.Count);
     }
 

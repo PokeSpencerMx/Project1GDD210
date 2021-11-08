@@ -11,5 +11,7 @@ public class Player : MonoBehaviour
     {
         inventory = new Inventory();
         uiInventory.SetInventory(inventory);
+
+        //ItemWorld.SpawnItemWorld(new Vector3(-4.55f, 5f, -9.672f));
     }
 }

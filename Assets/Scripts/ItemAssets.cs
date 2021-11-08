@@ -11,6 +11,7 @@ public class ItemAssets : MonoBehaviour
         Instance = this;
     }
 
+    public Transform pfItemWorld;
 
     //public Sprite X for each of the assets for items that go into the iventory.
     //Timestamp 8:20 to continue when we have the sprites.
