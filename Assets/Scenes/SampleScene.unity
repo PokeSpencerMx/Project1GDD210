@@ -794,6 +794,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Room
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 5375312475741445048, guid: 058fceec2812d4389bbbe1dcb5529e61, type: 3}
       propertyPath: m_LocalScale.y
       value: 12
@@ -817,6 +818,11 @@ PrefabInstance:
     - target: {fileID: 5375312477042373560, guid: 058fceec2812d4389bbbe1dcb5529e61, type: 3}
       propertyPath: m_LocalScale.y
       value: 12
+=======
+    - target: {fileID: 5375312476082896898, guid: 058fceec2812d4389bbbe1dcb5529e61, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.3
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 058fceec2812d4389bbbe1dcb5529e61, type: 3}
