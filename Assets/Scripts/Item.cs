@@ -14,4 +14,12 @@ public class Item
     public ItemType itemType;
     public int amount;
 
+    public Sprite GetSprite()
+    {
+        switch (itemType)
+        {
+            default:
+            case ItemType.PurpleKey: return ItemAssets.Instance.keySprite;
+        }
+    }
 }
