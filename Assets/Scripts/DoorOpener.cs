@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DoorOpener : MonoBehaviour
 {
@@ -17,6 +18,7 @@ public class DoorOpener : MonoBehaviour
         if (keyInInventory == true)
         {
             Debug.Log("WIN THE GAME");
+            SceneManager.LoadScene(1);
         }
         else
         {
