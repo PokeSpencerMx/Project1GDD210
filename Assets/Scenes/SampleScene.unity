@@ -3423,6 +3423,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1866663409 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6554596329523957985, guid: 058fceec2812d4389bbbe1dcb5529e61, type: 3}
+  m_PrefabInstance: {fileID: 720089453}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1866663414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866663409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 106dba4209ca43f4086a9b5a6d119338, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gottenkey: {fileID: 761588852}
 --- !u!1 &1899640784
 GameObject:
   m_ObjectHideFlags: 0
@@ -3944,6 +3962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keyacquired: {fileID: 761588852}
+  dooropener: {fileID: 1866663409}
 --- !u!1001 &3904866164009969661
 PrefabInstance:
   m_ObjectHideFlags: 0
